@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>3D Rotation Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <p>Free Shipping Over $100 & Free Returns</p>
+            <p>Contact :(+91) 8495054613</p>
+        </div>
+
+        <div class="header-part">
+            <a href="index.html" style="text-decoration: none; color: white;">
+                <h1>Bazar.</h1>
+            </a>
+            <input type="search" placeholder="Search Product Here..." />
+            <p>Compare <br>Products<img align="left" src="images/compare.svg" alt="" /></p>
+            <p>Favourite<br>Wishlist<img align="left" src="images/wishlist.svg" alt="" /></p>
+            <a href="login.html" style="text-decoration: none; color: white;">
+                <p>Log In<br>My Account<img align="left" src="images/user.svg" alt="" /></p>
+            </a>
+            <a href="cart.html" style="text-decoration: none; color: white;">
+                <p>Shipping<br>Cart<img align="left" src="images/cart.svg" /></p>
+            </a>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li>
+                    <select>
+                        <option>SHOP CATEGORIES</option>
+                        <option>SHOP CATEGORIES</option>
+                        <option>SHOP CATEGORIES</option>
+                        <option>SHOP CATEGORIES</option>
+                    </select>
+                </li>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>our store</li>
+                </a>
+                <a href="#">
+                    <li>blogs</li>
+                </a>
+                <a href="#">
+                    <li>contact</li>
+                </a>
+            </ul>
+        </div>
+
+
+    <div class="img-container">
+        <!-- <a href="#" onClick="document.getElementById('modal-wrapper').style.display='block'"><img
+                src="images/boat.jpg" style="width: 400px; height: 400px;"></a> -->
+    </div>
+
+
+
+    </div>
+
+    <!--3d modal-->
+
+    <div id="modal-wrapper" class="modal">
+        <div class="center">
+            <span onClick="document.getElementById('modal-wrapper').style.display='none'" class="close">&times;</span>
+            <div class="rotation">
+
+                <img src="images/boat1.png">
+                <img src="images/boat2.png">
+                <img src="images/boat3.png">
+                <img src="images/boat4.png">
+                <img src="images/boat5.png">
+                <img src="images/boat6.png">
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/360deg.js"></script>
+
+
+    <div class="content">
+        <div class="left">
+            <img src="images/boat1.png"data-toggle="modal"
+            data-target="#exampleModal" />
+            <img src="images/play-back.jpg">
+            <img src="images/40mm.jpg">
+            <img src="images/lightweight.jpg">
+            <img src="images/premium.jpg">
+            <a href="#" onClick="document.getElementById('modal-wrapper').style.display='block'"><img
+                src="images/boat.jpg"></a>
+            
+        </div>
+        <div class="middle">
+
+           <img src="images/boat.jpg"/>
+
+        </div>
+        <div class="right">
+           <h1>boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback, 40MM Drivers, Padded Ear Cushions, Integrated Controls and Dual Modes(Luscious Black)</h1><hr>
+        <h2>Colors</h2>
+        <div class="colors">
+            <img src="colors/red1.jpg">
+            <img src="colors/blue1.jpg">
+            <img src="colors/color1.jpg">
+            <img src="colors/color2.jpg">
+            <img src="colors/gold1.jpg">
+            <img src="colors/black.jpg">
+            <hr>
+        </div>
+        <div class="brand">
+            <input type="text" value="DC Edition" readonly/>
+            <input type="text" value="15 Hours" readonly/>
+            <input type="text" value="Masaba Edition" readonly/>
+            <input type="text" value="70 hourse (Pro Edition)" readonly/>
+            <p><strong>Brand :</strong>boAt</p>
+            <p><strong>Model Name :</strong>Rockerz 450</p>
+            <p><strong>Colour :</strong>Black</p>
+            <p><strong>Form Factor :</strong>On ear</p>
+            <p><strong>Connectivity Technology :</strong>Bluetooth</p><hr>
+        </div>
+        <div class="about">
+            <h2>About this item</h2>
+            <p>Playback- It provides a massive battery backup of upto 15 hours for a superior playback time.</p>
+            <p>Drivers- Its 40mm dynamic drivers help pump out immersive HD audio all day long</p>
+            <p>Earcushions- It has been ergonomically designed and structured as an on-ear headphone to provide the best user experience with its comfortable padded earcushions and lightweight design</p>
+            <p>Controls- You can control your music without hiccups using the easy access controls, communicate seamlessly using the built-in mic, access voice assistant and always stay in the zone</p>
+            <p>Dual Modes- One can connect to boAt Rockerz 450 via not one but two modes, Bluetooth as well as AUX</p>
+            <p>1 year warranty from the date of purchase</p>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="open">
+    <!-- Button to launch a modal -->
+    <!-- <button type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModal">
+        Show image
+    </button> -->
+    <!-- Modal -->
+    <div class="modal fade"
+         id="exampleModal"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+ 
+                <!-- Add image inside the body of modal -->
+                <div class="modal-body">
+                    <img id="image"
+                         src=
+"https://m.media-amazon.com/images/I/51xxA+6E+xL._SL1500_.jpg"
+                         alt="Click on button" />
+                </div>
+ 
+                <div class="modal-footer">
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Adding scripts to use bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity=
+"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+     </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity=
+"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+     </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity=
+"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+     </script>
+</body>
+
+</html>

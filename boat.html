@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Bazar.com
+    </title>
+    <link rel="stylesheet" href="boat.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e8fa2e31b4.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/js-image-zoom@0.4.1/js-image-zoom.js" type="application/javascript"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Free Shipping Over $100 & Free Returns</p>
+            <p>Contact :(+91) 8495054613</p>
+        </div>
+
+        <div class="header-part">
+            <a href="index.html" style="text-decoration: none; color: white;">
+                <h1>Bazar.</h1>
+            </a>
+            <input type="search" placeholder="Search Product Here..." />
+            <p>Compare <br>Products<img align="left" src="images/compare.svg" alt="" /></p>
+            <p>Favourite<br>Wishlist<img align="left" src="images/wishlist.svg" alt="" /></p>
+            <a href="login.html" style="text-decoration: none; color: white;">
+                <p>Log In<br>My Account<img align="left" src="images/user.svg" alt="" /></p>
+            </a>
+            <a href="cart.html" style="text-decoration: none; color: white;">
+                <p>Shipping<br>Cart<img align="left" src="images/cart.svg" /></p>
+            </a>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li>
+                    <select>
+                        <option>SHOP CATEGORIES</option>
+                        <option>SHOP CATEGORIES</option>
+                        <option>SHOP CATEGORIES</option>
+                        <option>SHOP CATEGORIES</option>
+                    </select>
+                </li>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>our store</li>
+                </a>
+                <a href="#">
+                    <li>blogs</li>
+                </a>
+                <a href="#">
+                    <li>contact</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="img-container">
+            <a href="#" onClick="document.getElementById('modal-wrapper').style.display='block'"><img
+                    src="images/boat.jpg" style="width: 400px; height: 400px;"></a>
+        </div>
+    </div>
+    <div id="modal-wrapper" class="modal">
+        <div class="center">
+            <span onClick="document.getElementById('modal-wrapper').style.display='none'" class="close">&times;</span>
+            <div class="rotation">
+
+                <img src="images/boat1.png">
+                <img src="images/boat2.png">
+                <img src="images/boat3.png">
+                <img src="images/boat4.png">
+                <img src="images/boat5.png">
+                <img src="images/boat6.png">
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/360deg.js"></script>
+</body>
+
+</html>

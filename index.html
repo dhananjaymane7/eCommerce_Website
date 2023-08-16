@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Bazar.com
+    </title>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e8fa2e31b4.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/js-image-zoom@0.4.1/js-image-zoom.js" type="application/javascript"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Free Shipping Over $100 & Free Returns</p>
+            <p>Contact :(+91) 8495054613</p>
+        </div>
+
+        <div class="header-part">
+            <a href="index.html" style="text-decoration: none; color: white;">
+                <h1>Bazar.</h1>
+            </a>
+            <input type="search" placeholder="Search Product Here..." />
+            <p>Compare <br>Products<img align="left" src="images/compare.svg" alt="" /></p>
+            <p>Favourite<br>Wishlist<img align="left" src="images/wishlist.svg" alt="" /></p>
+            <a href="login.html" style="text-decoration: none; color: white;">
+                <p>Log In<br>My Account<img align="left" src="images/user.svg" alt="" /></p>
+            </a>
+            <a href="cart.html" style="text-decoration: none; color: white;">
+                <p>Shipping<br>Cart<img align="left" src="images/cart.svg" /></p>
+            </a>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li>
+                    <select>
+                        <option>SHOP CATEGORIES</option>
+                        <option>SHOP CATEGORIES</option>
+                        <option>SHOP CATEGORIES</option>
+                        <option>SHOP CATEGORIES</option>
+                    </select>
+                </li>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>our store</li>
+                </a>
+                <a href="#">
+                    <li>blogs</li>
+                </a>
+                <a href="#">
+                    <li>contact</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="left-side">
+                <img src="images/main-banner.jpg">
+                <h4>supercharged for pros.</h4>
+                <h1>Special sale</h1>
+                <p>from $999.00 or $41.62/mo.<br>for 24 mo. Footnote*</p>
+                <button>BUY NOW</button>
+
+            </div>
+            <div class="right-side">
+                <div class="right1">
+                    <img src="images/catbanner-01.jpg">
+                    <img src="images/catbanner-02.jpg">
+                </div>
+                <div class="right2">
+                    <img src="images/catbanner-03.jpg">
+                    <img src="images/catbanner-04.jpg">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="shipping">
+            <p><strong>Free Shipping</strong><br>From all orders over $100<img align="left" src="images/service.png"
+                    alt="" /></p>
+            <p><strong>Daily Surprise Offers</strong><br>Save upto 25% off<img align="left" src="images/service-02.png"
+                    alt="" /></p>
+            <p><strong>Support 24/7</strong><br>Shop with an expert<img align="left" src="images/service-03.png"
+                    alt="" /></p>
+            <p><strong>Affordable Prices</strong><br>Get factory direct price<img align="left"
+                    src="images/service-04.png" alt="" /></p>
+            <p><strong>Secure Payments</strong><br>100% protected payments<img align="left" src="images/service-05.png"
+                    alt="" /></p>
+        </div>
+
+        <div class="shipping-1">
+            <div class="shipping-11">
+                <p><strong>Computers & Laptop</strong><br>8 items<img align="left" src="images/laptop.jpg" alt="" /></p>
+                <p><strong>Cameras & Videos</strong><br>10 items<img align="left" src="images/camera.jpg" alt="" /></p>
+                <p><strong>Smart Television</strong><br>8 items<img align="left" src="images/tv.jpg" alt="" />
+                </p>
+                <p><strong>Accessories</strong><br>5 items<img align="left" src="images/acc.jpg" alt="" /></p>
+                <p><strong>Watches</strong><br>12 items<img align="left" src="images/watch1.jpg" alt="" /></p>
+            </div>
+            <div class="shipping-12">
+                <p><strong>Smartwatches</strong><br>10 items<img align="left" src="images/boat-watch.jpg" alt="" /></p>
+                <p><strong>Headphones</strong><br>8 items<img align="left" src="images/headphone.jpg" alt="" /></p>
+                <p><strong>Home appliances</strong><br>6 items<img align="left" src="images/homeapp.jpg" alt="" /></p>
+                <p><strong>Portable Speakers</strong><br>4 items<img align="left" src="images/speaker.jpg" alt="" /></p>
+                <p><strong>Boat Headphones</strong><br>10 items<img align="left" src="images/boat.jpg" alt="" /></p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+
+            <div class="sidebody">
+                <div class="title" onclick="open1()">
+                    <h1>Featured Collection</h1>
+                </div>
+                <div class="searchBar">
+                    <input placeholder="Search..." id="searchBar" name="searchBar" type="text">
+                    <i class="fa-solid fa-magnifying-glass glass" id="btn"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="body">
+            <div id="root"></div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="title">
+        <h1>Something new</h1>
+    </div>
+    <div class="extras">
+
+        <div class="ex1">
+            <p>big screen</p>
+            <h2>smart watch series 6</h2>
+            <img src="images/series.png" id="im1">
+            <img src="images/wish.svg" id="wish" />
+        </div>
+        <div class="ex1">
+            <p>studio display</p>
+            <h2>600 nits of background.</h2>
+            <img src="images/laptop-1.jpg" id="im1">
+            <img src="images/wish.svg" id="wish" />
+        </div>
+        <div class="ex1">
+            <p>smartphones</p>
+            <h2>smartphone 13 pro.</h2>
+            <img src="images/apple1.jpg" id="im1">
+            <img src="images/wish.svg" id="wish" />
+        </div>
+        <div class="ex1">
+            <p>home speakers</p>
+            <h2>room-filling sound.</h2>
+            <img src="images/spk.jpg" id="im1">
+            <img src="images/wish.svg" id="wish" />
+        </div>
+    </div>
+
+    <script>
+        const product = [
+            {
+                id: 0,
+                image: 'images/boat.jpg',
+                onclick: 'boat.html',
+                title: 'Boat',
+                head: 'Boat headphones bulk 10 pack multi colored',
+            },
+            {
+                id: 1,
+                image: 'images/tab.jpg',
+                title: 'Samsung',
+                head: 'Samsung tablets bulk 10 pack multi colored',
+            },
+            {
+                id: 2,
+                image: 'images/spk.jpg',
+                title: 'sony',
+                head: 'Sony home speakers bulk 10 pack multi colored',
+            },
+            {
+                id: 3,
+                image: 'images/shoes.jpg',
+                title: 'nike',
+                head: 'nike sports shoes bulk 10 pack multi colored',
+            },
+            {
+                id: 4,
+                image: 'images/boat-watch.jpg',
+                title: 'oneplus',
+                head: 'oneplus smartwatch bulk 10 pack multi colored',
+            },
+            {
+                id: 5,
+                image: 'images/hoodie.jpg',
+                title: 'hoodie',
+                head: 'California hoodie bulk 10 pack multi colored',
+            },
+        ];
+
+        const categories = [...new Set(product.map((item) => { return item }))]
+
+        document.getElementById('searchBar').addEventListener('keyup', (e) => {
+            const searchData = e.target.value.toLowerCase();
+            const filteredData = categories.filter((item) => {
+                return (
+                    item.title.toLowerCase().includes(searchData)
+                )
+            })
+            displayItem(filteredData)
+        });
+
+        const displayItem = (items) => {
+            document.getElementById('root').innerHTML = items.map((item) => {
+                var { image, title, head, price } = item;
+                return (
+                    `<div class='box'>
+                        <div class='img-box'>
+                            <img class='images' src=${image}></img>
+                        </div> 
+                        <div class='bottom'>
+                            <p>${title}</p>
+                            <h1>${head}</h1>
+                        <button>Add to cart</button>
+                        </div>
+                    </div>`
+                )
+            }).join('')
+        };
+        displayItem(categories);
+
+    </script>
+
+    <script>
+        function open1() {
+            window.open("roatate.html");
+
+        }
+    </script>
+
+<div class="banner">
+    <img src="images/beat.jpg"/>
+</div>
+
+<div class="title">
+    <h1>New & Upcoming Launches | Smartwatches</h1>
+</div>
+<div class="watches">
+    <img src="images/watch2.jpg"/>
+    <img src="images/watch6.gif" id="tt"/>
+    <img src="images/watch3.jpg"/>
+    <img src="images/watch8.gif" id="tt"/>
+</div>
+
+    <div class="title" id="title1">
+        <h1>partnership</h1>
+    </div>
+    <div class="partnership">
+        <img src="images/brand-01.png">
+        <img src="images/brand-02.png">
+        <img src="images/brand-03.png">
+        <img src="images/brand-04.png">
+        <img src="images/brand-05.png">
+        <img src="images/brand-06.png">
+        <img src="images/brand-07.png">
+        <img src="images/brand-08.png">
+    </div>
+
+    <div class="footer">
+        <img align="left" src="images/newsletter.png" />
+        <h1>Sign Up For newsletter</h1>
+        <input type="text" placeholder="Your Email" />
+
+    </div>
+    <hr>
+
+    <div class="footer-1">
+        <div class="ft1">
+            <h1>Contact Us</h1>
+            <p>Demo Store</p>
+            <p>No. 1259 Freedom, New York, 1111</p>
+            <p>United States</p>
+            <p>+918485054613</p>
+            <p>mane.dhananajay.p@gmail.com</p>
+        </div>
+
+        <div class="ft1">
+            <h1>Information</h1>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Shipping Policy</p>
+            <p>Terms Of Services</p>
+            <p>Blogs</p>
+        </div>
+
+        <div class="ft1">
+            <h1>Account</h1>
+            <p>Search</p>
+            <p>About Us</p>
+            <p>Faq</p>
+            <p>Contact</p>
+            <p>Size chart</p>
+        </div>
+
+
+        <div class="ft1">
+            <h1>Quick Links</h1>
+            <p>Accessories</p>
+            <p>Laptops</p>
+            <p>Headphones</p>
+            <p>Smart Watches</p>
+            <p>Tablets</p>
+        </div>
+
+        <div class="ft1">
+            <h1>Our App</h1>
+            <p>Download our App and get extra 15% Discount on your first order..!</p>
+            <img src="images/gpay.png" style="width: 200px; height: 80px" />
+        </div>
+
+    </div>
